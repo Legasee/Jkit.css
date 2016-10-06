@@ -1,4 +1,2 @@
 # Jakekit.css
-
-A Lightweight, yet Powerful Frontend Framework.
-Coming Soon.
+Jake &amp; IYECommunications Project #1

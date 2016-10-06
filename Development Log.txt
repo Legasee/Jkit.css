@@ -1,0 +1,6 @@
+[06/10/2016] Jordan:
+
+> Removed the excessive breaks (<br>) and replaced them with a div on the header and footer
+> Tidied up the CSS so it's easier to read
+> Repositioned "col-3" into the center since it was stuck to the left. 
+		- Had to remove an unecessary div above the "col-3" then aligned in inside the index.
