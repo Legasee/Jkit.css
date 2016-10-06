@@ -1,2 +1,4 @@
 # Jakekit.css
-Jake &amp; IYECommunications Project #1
+
+A Lightweight, yet Powerful Frontend Framework.
+Coming Soon.
