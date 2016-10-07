@@ -1,0 +1,65 @@
+/* Push - Jordan 
+
+Change everything that has "jkit-btn-uit2" to your own button class
+and paste it into your CSS file. It should work perfectly. If not, you're
+doing something wrong.
+
+*/
+@-webkit-keyframes jkit-btn-ui2 {
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+@keyframes jkit-btn-ui2 {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+.jkit-btn-ui2 {
+    
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.jkit-btn-ui2:hover, .jkit-button-ui2:focus, .jkit-button-ui2:active {
+    
+  -webkit-animation-name: jkit-btn-ui2;
+  animation-name: jkit-btn-ui2;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+    
+}
