@@ -1,2 +1,2 @@
 # Jakekit.css
-Jake &amp;  Project #1
+Lightweight, but Powerful CSS Framework/Kit
