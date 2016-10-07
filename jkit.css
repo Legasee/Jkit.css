@@ -38,56 +38,60 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     
-	line-height: 1;
-    
+    line-height: 1;
+  
 }
 
 ol, ul {
     
-	list-style: none;
-    
+    list-style: none;
 }
 
 blockquote, q {
     
-	quotes: none;
+    quotes: none;
     
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     
-	content: '';
-	content: none;
+    content: '';
+    content: none;
     
 }
-
 table {
     
-	border-collapse: collapse;
-	border-spacing: 0;
-    
-}	
-
-/* GRID */
-.grid-container{
-    
-	width: 100%;    
+    border-collapse: collapse;
+    border-spacing: 0;
     
 }
 
-/*-- our cleafix hack -- */ 
-.row:before, 
-.row:after {
+/* GRID */
+
+.grid-container {
     
-	content:"";
-	display: table ;
-	clear:both;
+    width: 100%;
+    
+}
+
+.cdiv1 {
+    
+    background-color: #4d94ff;
+    color: white;
+    padding: 20px;
+    
+}
+
+/*-- our cleafix hack -- */
+.row:before, .row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
     
 }
 
 /* Whitespace Header */
-
 #whitespace_header {
     
     padding-top: 150px;
@@ -96,88 +100,171 @@ table {
 
 [class*='col-'] {
     
-	display: inline-block; 
-	min-height: 1px; 
-    width: 16.66%; 
-	/*-- our gutter -- */
-	padding: 12px; 
+    display: inline-block;
+    min-height: 1px;
+    width: 16.66%;
+    /*-- our gutter -- */
+    padding: 12px;
     
 }
 
-	.col-1{ width: 16.66%; }
-	.col-2{ width: 33.33%; }
-	.col-3{ width: 50%;    }
-	.col-4{ width: 66.66%; }
-	.col-5{ width: 83.33%; }
-	.col-6{ width: 100%;   }
-
-.outline, .outline *{
+.col-1 {
     
-	outline: 1px solid #FFFFF; 
+    width: 16.66%;
+}
+
+.col-2 {
+    
+    width: 33.33%;
+    
+}
+
+.col-3 {
+    
+    width: 50%;
+    
+}
+
+.col-4 {
+    
+    width: 66.66%;
+    
+}
+
+.col-5 {
+    
+    width: 83.33%;
+    
+}
+
+.col-6 {
+    
+    width: 100%;
+    
+}
+
+.outline, .outline * {
+    
+    outline: 1px solid #FFFFF;
     
 }
 
 /*-- some extra column content styling --*/
 [class*='col-'] > p {
     
-	padding: 0;
-	margin: 0;
-    text-align: center; 
-    color: black; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
     
 }
 
 /* RESPONSIVE GRID */
-
-@media all and (max-width:800px) {
+@media all and (max-width: 800px) {
     
-	.col-1{ width: 33.33%; }
-    .col-2{ width: 50%;    }
-    .col-3{ width: 83.33%; }
-	.col-4{ width: 100%;   }
-	.col-5{ width: 100%;   }
-	.col-6{ width: 100%;   }
-	
+    .col-1 {
+        
+        width: 33.33%;
+        
+    }
+    
+    .col-2 {
+        
+        width: 50%;
+        
+    }
+    .col-3 {
+        
+        width: 83.33%;
+        
+    }
+    
+    .col-4 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-5 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-6 {
+        
+        width: 100%;
+        
+    }
+    
     .row .col-2:last-of-type {
         
-		width: 100%; 
+        width: 100%;
         
-}
-
+    }
     .row .col-5 ~ .col-1 {
         
-		width: 100%; 
+        width: 100%;
         
-		}
+    }
+}
+@media all and (max-width: 650px) {
+    
+    .col-1 {
+        
+        width: 50%;
+        
+    }
+    
+    .col-2 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-3 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-4 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-5 {
+        
+        width: 100%;
+        
+    }
+    
+    .col-6 {
+        
+        width: 100%;
+        
+    }
 }
 
-@media all and (max-width:650px) {
-    
-	.col-1{ width: 50%;    }
-    .col-2{ width: 100%;   }
-    .col-3{ width: 100%;   }
-    .col-4{ width: 100%;   }
-    .col-5{ width: 100%;   }
-    .col-6{ width: 100%;   }
-    
-}
-	
 /* ------------------------------------------------------------------------------ */
 /*				                                                                  */
 /*               Framework Components & Main CSS For Jakekit.css				  */
 /*																				  */
-/* ------------------------------------------------------------------------------ */	
+/* ------------------------------------------------------------------------------ */
 
 body {
     
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
     
 }
 
 .button {
     
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    
     transition-duration: 0.4s;
     
 }
@@ -199,26 +286,28 @@ body {
 
 .jkit-btn-default {
     
-    background-color: #cccccc; 
-    border: 1px solid #555555; 
-    font-size: 16px; 
+    background-color: #cccccc;
+    border: 1px solid #555555;
+    font-size: 16px;
     color: black;
-
+    
 }
+
 .jkit-btn-default:hover {
     
     background-color: #d9d9d9;
     color: black;
+    
 }
-
 .jkit-btn-inverse {
     
-    background-color: #000000; 
-    border: 1px solid #555555; 
-    font-size: 16px; 
+    background-color: #000000;
+    border: 1px solid #555555;
+    font-size: 16px;
     color: white;
-
+    
 }
+
 .jkit-btn-inverse:hover {
     
     background-color: #404040;
@@ -228,27 +317,28 @@ body {
 
 .jkit-btn-basic {
     
-    background-color: #ffffff; 
-    border: 1px solid #555555; 
-    font-size: 16px; 
+    background-color: #ffffff;
+    border: 1px solid #555555;
+    font-size: 16px;
     color: black;
-
+    
 }
+
 .jkit-btn-basic:hover {
     
     background-color: #d9d9d9;
     color: black;
     
 }
-
 .jkit-btn-ui {
     
-    background-color: #808080; 
-    border: 1px solid #000000; 
-    font-size: 16px; 
+    background-color: #808080;
+    border: 1px solid #000000;
+    font-size: 16px;
     color: white;
-
+    
 }
+
 .jkit-btn-ui:hover {
     
     background-color: #eeeeee;
@@ -256,15 +346,75 @@ body {
     
 }
 
-/* Inverse Navbar */
-.jkit-nav-inverse
-ul {
+@-webkit-keyframes jkit-btn-ui2 {
     
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+@keyframes jkit-btn-ui2 {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+.jkit-btn-ui2 {
+    
+    background-color: crimson;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.jkit-btn-ui2:hover, .jkit-button-ui2:focus, .jkit-button-ui2:active {
+    
+    -webkit-animation-name: jkit-btn-ui2;
+    animation-name: jkit-btn-ui2;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    
+}
+
+/* Inverse Navbar */
+.jkit-nav-inverse ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     
 }
 
@@ -276,8 +426,8 @@ li {
 
 li a {
     
-	display: block;
-	color: white;
+    display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -286,18 +436,15 @@ li a {
 
 /* Hover - Inverse */
 
-.jkit-nav-inverse
-li a:hover {
+.jkit-nav-inverse li a:hover {
     
     background-color: #111;
-	color: white;
+    color: white;
     
 }
 
 /* Navbar Default */
-
-.jkit-nav-default
-ul {
+.jkit-nav-default ul {
     
     list-style-type: none;
     margin: 0;
@@ -305,8 +452,8 @@ ul {
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    
 }
-
 
 li {
     
@@ -326,17 +473,14 @@ li a {
 
 /* Hover - Default */
 
-.jkit-nav-default 
-
-li a:hover {
+.jkit-nav-default li a:hover {
     
     background-color: #e6e6e6;
-	color: #666;
+    color: #666;
     
 }
 
 /* Footer Whitespace */
-
 #whitespace_footer {
     
     padding-bottom: 150px;
@@ -346,39 +490,8 @@ li a:hover {
 
 .nav-fixed {
     
-	position: fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     
-}
-/* navbar logo */
-
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
-}
-
-.box-blur {
-    box-shadow: 10px 5px 5px grey;
-}
-
-div.card {
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-}
-
-div.header {
-    background-color: #52BE80;
-    color: white;
-    padding: 10px;
-    font-size: 40px;
-}
-
-div.container {
-    padding: 10px;
 }
