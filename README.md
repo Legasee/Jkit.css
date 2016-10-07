@@ -1,2 +1,5 @@
 # Jakekit.css
-Lightweight, but Powerful CSS Framework/Kit
+
+Usage:
+> CDN (https://cdn.jakekitcss.com)
+> Source Files (https://github.com/Jake7500/Jakekit.css)
