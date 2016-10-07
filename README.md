@@ -1,2 +1,2 @@
 # Jakekit.css
-Jake &amp; IYECommunications Project #1
+Jake &amp;  Project #1
