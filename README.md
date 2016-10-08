@@ -9,4 +9,3 @@ Usage:
 > Wiki <a href="https://github.com/Jake7500/Jakekit.css/wiki">here</a>
 </br>
 > Issue's  <a href="https://github.com/Jake7500/Jakekit.css/issues">here</a>
-
