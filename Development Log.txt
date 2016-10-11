@@ -9,6 +9,7 @@
 
 > Added some hover kits that I made into the folder "hover_css_kits"
 		- This allows people to crop the section of CSS they want without going into the main CSS removing anything accidently
+
 > Added a new button "UI Button 2" with a new animation - the seperate css is put into the hover_css_kits
 > Started creating a drop down menu within the "about" section - haven't added any CSS though.
 		- Looks untidy but will work on it later
@@ -20,6 +21,23 @@
 > Changed basic button
 > Changed UI Button
 		- Removed UI Button 2
+
 > Changed color format to red for the website as decided with Jake.
 > Added a smooth dropdown animation to "About" on the top navbar.
 		- Slight bug where it won't let you hover over home, news, etc and always reverts to opening the "About" dropdown.
+
+[11/10/2016] Jordan:
+
+> Changed the font to "Jura" as an experimental touch
+> Added 4 new buttons for basic UI navigation as requested by Jake
+		- Placed the new animations for the buttons on each
+
+> Renamed "hover_css_kits" to "j-kit_css"
+		- Internal folder called "buttons" where each individual button has it's CSS seperately placed in those files so people can easily grab it.
+		- Under the subfolder "buttons" there is categorised folders corresponding within the grouping of buttons inside index.html.
+
+> Added a line break with "<hr>" styling under the class "<hr class="line_seperator">" 
+		- Can add this in anywhere within the index.html for seperating the buttons.
+
+> Categorised the buttons inside index.html
+> Still need to fix the top nav about sub menu
