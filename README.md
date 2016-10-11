@@ -1,4 +1,4 @@
-# Jakekit.css
+# J-kit
 
 Usage:
 - CDN (https://cdn.jakekitcss.com)
