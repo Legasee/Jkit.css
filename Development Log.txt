@@ -41,3 +41,7 @@
 
 > Categorised the buttons inside index.html
 > Still need to fix the top nav about sub menu
+> Fixed the colouring of the top and bottom navbars. Had to seperate li a and jkit-nav-default with their own selectors.
+> Added hover animations on the top and bottom navbars
+> Added the submenu when you hover over "About" - the submenu position isn't correct but I'll fix that when I come back to it tomorrow.
+
