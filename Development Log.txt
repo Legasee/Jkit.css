@@ -28,7 +28,7 @@
 
 [11/10/2016] Jordan:
 
-> Changed the font to "Jura" as an experimental touch
+> Changed the font to "Rajdhani" as an experimental touch
 > Added 4 new buttons for basic UI navigation as requested by Jake
 		- Placed the new animations for the buttons on each
 
