@@ -8,6 +8,7 @@
 @import url('http://fonts.googleapis.com/css?family=Merriweather+Sans:700,300');
 @import url('http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@font-face { font-family: Hani; src: url('Rajdhani-Regular.ttf'); }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -29,7 +30,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     font-weight: bold;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Hani', sans-serif;
 	vertical-align: baseline;
 }
 
@@ -627,6 +628,7 @@ body {
 }
 
 /* Inverse Navbar */
+
 .jkit-nav-inverse ul {
     
     list-style-type: none;
@@ -634,6 +636,30 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
+}
+
+.jkit-nav-inverse li {
+    
+    -webkit-transition: all 0.2s;
+    
+}
+
+.jkit-nav-inverse li a {
+    
+    -webkit-transition: all 0.5s; 
+    
+}
+
+.jkit-nav-inverse li ul {
+    
+    -webkit-transition: all 1s;
+    
+}
+
+.jkit-nav-inverse li ul li {
+    
+    -webkit-transition: height 0.5s;
     
 }
 
@@ -657,7 +683,7 @@ li a {
 
 .jkit-nav-inverse li a:hover {
     
-    background-color: #111;
+    background-color: #ED1C24;
     color: white;
     
 }
@@ -691,12 +717,37 @@ li a {
     
 }
 
+.jkit-nav-default li {
+    
+    -webkit-transition: all 0.2s;
+    
+}
+
+.jkit-nav-default li a {
+    
+    -webkit-transition: all 0.5s; 
+    color: black;
+    
+}
+
+.jkit-nav-default li ul {
+    
+    -webkit-transition: all 1s;
+    
+}
+
+.jkit-nav-default li ul li {
+    
+    -webkit-transition: height 0.5s;
+    
+}
+
 /* Hover - Default */
 
 .jkit-nav-default li a:hover {
     
-    background-color: #e6e6e6;
-    color: #666;
+    background-color: #ED1C24;
+    color: #fff;
     
 }
 
@@ -716,98 +767,55 @@ li a {
     
 }
 
-span.bottomDrop {
+/* Sub Navigation Implementation */
+
+.jkit-nav-inverse ul li ul {
     
-	display: block;
-	box-shadow:inset 2px 0px 0px #FF9;
-	position: absolute;
-	left: 0px;
-	width:100%;
-	height: 100%;
-	top: 0px;
-    bottom: 0px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    margin-left: -20px
+    width: 150px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease;
     
 }
 
-ul {
+.jkit-nav-inverse ul li:hover ul {
     
-	margin:0;
-	padding:0;
-	list-style:none;
-    
-}
-
-ul ul {
-    
-	opacity:0;
-	position:absolute;
-	top:160%;
-	visibility:hidden;
-	transition:all .4s ease;
-	-webkit-transition:all .4s ease;
+    visibility: visible;
+    opacity: 1;
+    filter: alpha(opacity=100);
     
 }
 
-ul ul ul {
+.jkit-subnav li {
     
-	   top:0%;
-	   left:160%;
-    
-}
-
-ul ul li:hover > ul {
-    
-	   top:0%;
-	   left:100%;
-	   opacity:1;
-	   visibility:visible;
+    -webkit-transition: all 0.2s;
     
 }
 
-ul li:hover > ul {
+.jkit-subnav li a {
     
-	   opacity:1;
-	   top:100%;
-	   visibility:visible;
+    -webkit-transition: all 0.5s; 
     
 }
 
-ul ul li {
+.jkit-subnav li ul {
     
-	   float:none;
-    
-}
-
-ul li {
-    
-	   background-color: #333;
-	   cursor: pointer;
+    -webkit-transition: all 1s;
     
 }
 
-}
-ul a {
+.jkit-subnav li ul li {
     
-    text-decoration:none;
-    display:block;
-    color: white;
-    padding:10px 15px;
-    width:6em;
-    text-align:center;
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: 0px -1px 0px rgba(0,0,0,.2);
-    
-}
-
-ul li:hover {
-    
-	background-color: #ED1C24;
-    color: white;
-    
-}
-
-ul li a:hover {
-    
-	background-color: navy;
+    -webkit-transition: height 0.5s;
     
 }
