@@ -28,8 +28,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
 	vertical-align: baseline;
-    
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -96,10 +97,24 @@ table {
     
 }
 
-/* Whitespace Header */
-#whitespace_header {
+/* Whitespace Handling Section */
+.whitespace_header {
     
     padding-top: 150px;
+    
+}
+
+.seperation_whitespace {
+    
+    padding-top: 10px;
+    
+}
+
+.line_seperator {
+    
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     
 }
 
@@ -150,7 +165,7 @@ table {
 
 .outline, .outline * {
     
-    outline: 1px solid #FFFFF;
+    outline: 1px solid #FFF;
     
 }
 
@@ -297,7 +312,151 @@ body {
     
 }
 
-.jkit-btn-default {
+.jkit-btn-fade {
+    
+    background-color: #CCC;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    
+}
+
+.jkit-btn-fade:hover, .jkit-btn-fade:focus, .jkit-btn-fade:active {
+    
+    background-color: #ED1C24;
+    color: white;
+    
+}
+
+.jkit-btn-sfade {
+    
+    background-color: #CCC;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, color, background-color;
+    transition-property: box-shadow, color, background-color;
+    
+    
+}
+
+.jkit-btn-sfade:hover, .jkit-btn-sfade:focus, .jkit-btn-sfade:active {
+    
+    background-color: #ED1C24;
+    color: white;
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.jkit-btn-intverse {
+    
+    background-color: #CCC;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: background;
+    transition-property: background;
+    box-shadow: inset 0 0 0 4px #CCC, 0 0 1px rgba(0, 0, 0, 0);
+    
+}
+
+.jkit-btn-intverse:hover, .jkit-btn-intverse:focus, .jkit-btn-intverse:active {
+    
+    background: none;
+    
+}
+
+@-webkit-keyframes jkit-btn-qsink {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+@keyframes jkit-btn-qsink {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+     transform: scale(1);
+  }
+    
+}
+
+
+.jkit-btn-qsink {
+    
+    background-color: #CCC;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.jkit-btn-qsink:hover, .jkit-btn-qsink:focus, .jkit-btn-qsink:active {
+    
+    -webkit-animation-name: jkit-btn-qsink;
+    animation-name: jkit-btn-qsink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    
+}
+
+.jkit-btn-underline {
     
     background-color: #CCCCCC;
     font-size: 16px;
@@ -315,26 +474,26 @@ body {
     
 }
 
-.jkit-btn-default:before {
+.jkit-btn-underline:before {
     
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  background: #ED1C24;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #ED1C24;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
     
 }
 
-.jkit-btn-default:hover:before, .jkit-btn-default:focus:before, .jkit-btn-default:active:before {
+.jkit-btn-underline:hover:before, .jkit-btn-underline:focus:before, .jkit-btn-underline:active:before {
     
   left: 0;
   right: 0;
@@ -398,7 +557,7 @@ body {
     
 }
 
-.jkit-btn-basic {
+.jkit-btn-border {
     
     background-color: #ED1C24;
     color: white;
@@ -414,7 +573,7 @@ body {
     
 }
 
-.jkit-btn-basic:before {
+.jkit-btn-border:before {
     
     content: '';
     position: absolute;
@@ -431,7 +590,7 @@ body {
 }
 
 
-.jkit-btn-basic:hover:before, .jkit-btn-basic:focus:before, .jkit-btn-basic:active:before {
+.jkit-btn-border:hover:before, .jkit-btn-border:focus:before, .jkit-btn-border:active:before {
     
   top: -8px;
   right: -8px;
