@@ -1,0 +1,70 @@
+/* Quick Sink Button CSS
+
+    Copy and paste whatever is in here and link it to your button class for the animation.
+
+    Feel free to change the colours and fiddle around with it.
+
+*/
+
+@-webkit-keyframes jkit-btn-qsink {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+    transform: scale(1);
+      
+  }
+}
+
+@keyframes jkit-btn-qsink {
+    
+  50% {
+      
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+      
+  }
+
+  100% {
+      
+    -webkit-transform: scale(1);
+     transform: scale(1);
+  }
+    
+}
+
+
+.jkit-btn-qsink {
+    
+    background-color: #CCC;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.jkit-btn-qsink:hover, .jkit-btn-qsink:focus, .jkit-btn-qsink:active {
+    
+    -webkit-animation-name: jkit-btn-qsink;
+    animation-name: jkit-btn-qsink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    
+}
