@@ -8,10 +8,10 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 [![version](https://img.shields.io/badge/Version-0.1.1-lightgrey.svg?style=flat-square)]()
 # Usage
 Import Jkit StyleSheet:
-<code> `<link rel="stylesheet" type="text/css" href="jkit.css">` 
+<code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code>
 </br>
 CDN:
-<code> `cdn.jkitcss.com/master/master/0.1.1/css/jkit.css` 
+<code> `cdn.jkitcss.com/master/master/0.1.1/css/jkit.css` </code>
 </br>
 
 
