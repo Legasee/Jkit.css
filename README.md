@@ -3,7 +3,6 @@ Licensed Under: [![license](https://img.shields.io/github/license/mashape/apista
 
 <p> Lightweight and Powerful CSS Framework integrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
-[![status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 </p>
 
 # Development
