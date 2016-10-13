@@ -1,5 +1,4 @@
 # J-kit
-Licensed Under: MIT License
 <p> Lightweight and Powerful CSS Framework integrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 </p>
