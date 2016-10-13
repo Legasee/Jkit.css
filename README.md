@@ -2,7 +2,9 @@
 <p> Lightweight and Powerful CSS Framework integrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid.
 </p>
+<!--
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css/coverage"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/coverage.svg" /></a>
+-->
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/issue_count.svg" /></a>
 
 
