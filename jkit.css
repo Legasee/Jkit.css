@@ -512,7 +512,7 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; 
     position: relative;
     background: #e1e1e1;
     -webkit-transition-property: color;
@@ -773,24 +773,25 @@ li a {
     
     padding: 0;
     position: absolute;
-    left: 0;
+    left: auto;
     top: 44px;
     margin-left: -20px
-    width: 150px;
+    width: 400px;
     z-index: 1;
     visibility: hidden;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: 200ms ease;
-    -moz-transition: 200ms ease;
-    -o-transition: 200ms ease;
-    transition: 200ms ease;
+    -webkit-transition: 1000ms ease;
+    -moz-transition: 1000ms ease;
+    -o-transition: 1000ms ease;
+    transition: 1000ms ease;
     
 }
 
 .jkit-nav-inverse ul li:hover ul {
     
     visibility: visible;
+    display: block;
     opacity: 1;
     filter: alpha(opacity=100);
     
@@ -798,13 +799,14 @@ li a {
 
 .jkit-subnav li {
     
-    -webkit-transition: all 0.2s;
+    float: none;
+    -webkit-transition: all 1s;
     
 }
 
 .jkit-subnav li a {
     
-    -webkit-transition: all 0.5s; 
+    -webkit-transition: all 1s; 
     
 }
 
@@ -816,6 +818,6 @@ li a {
 
 .jkit-subnav li ul li {
     
-    -webkit-transition: height 0.5s;
+    -webkit-transition: height 1s;
     
 }
