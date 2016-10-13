@@ -7,26 +7,7 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid.
 
 # Development
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/issue_count.svg" /></a>
-[![status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
+</br>[![status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
+</br>[![devstatus](https://img.shields.io/badge/development status-Unreleased-red.svg)]()
 # Usage
 
-
-
-
-
-
-
-<!--
-Usage:
-- CDN (https://cdn.jakekitcss.com)
-- Source Files (https://github.com/Jake7500/Jakekit.css)
-
-> Development Log <a href="https://github.com/Jake7500/Jakekit.css/blob/master/Development%20Log.txt">here</a>
-</br>
-> Wiki <a href="https://github.com/Jake7500/Jakekit.css/wiki">here</a>
-</br>
-> Issue's  <a href="https://github.com/Jake7500/Jakekit.css/issues">here</a>
--->
-<!--
-<a href="https://codeclimate.com/github/Jake7500/Jakekit.css/coverage"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/coverage.svg" /></a>
--->
