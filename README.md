@@ -21,10 +21,3 @@ CDN:
 All Documentation can be found at: 
 <a href="https://jkitcss.com">Here</a> -
 Along with more detailed information on the Project.
-
-
-
-
-
-
-Copyright: Jake(c) 2016
