@@ -11,3 +11,11 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 Import Jkit StyleSheet:
 <code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code> Place inside <code> `<head> </head>` Tags </code>
 
+
+
+
+
+# Documentation
+All Documentation can be found at: 
+<a href="https://jkitcss.com">Here</a> -
+Along with more detailed information on the Project.
