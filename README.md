@@ -1,5 +1,5 @@
 # J-kit
-Licensed Under: [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 <p> Lightweight and Powerful CSS Framework integrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 </p>
