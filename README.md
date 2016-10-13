@@ -1,8 +1,10 @@
 # J-kit
 Licensed Under: [![Crates.io](https://img.shields.io/crates/l/rustc-serialize.svg?maxAge=2592000)]()
+
 <p> Lightweight and Powerful CSS Framework integrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid.
 </p>
+
 # Development
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/issue_count.svg" /></a>
 # Usage
