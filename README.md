@@ -1,5 +1,17 @@
 # J-kit
+<p> Lightweight and Powerful. </p>
 
+
+
+
+
+
+
+
+
+
+
+<!--
 Usage:
 - CDN (https://cdn.jakekitcss.com)
 - Source Files (https://github.com/Jake7500/Jakekit.css)
@@ -9,3 +21,4 @@ Usage:
 > Wiki <a href="https://github.com/Jake7500/Jakekit.css/wiki">here</a>
 </br>
 > Issue's  <a href="https://github.com/Jake7500/Jakekit.css/issues">here</a>
+-->
