@@ -12,7 +12,7 @@ Import Jkit StyleSheet:
 <code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code> Place inside <code> `<head> </head>` Tags </code>
 </br>
 CDN:
-<code> `cdn.jkitcss.com/master/master/0.1.1/css/jkit.css` </code>
+<code> `cdn.jkitcss.com/master/master/0.1.1/css/jkit.css` </code> Place inside <code> `<head> </head>` Tags </code>
 
 
 
