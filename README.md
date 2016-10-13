@@ -5,7 +5,7 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid.
 # Development
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/issue_count.svg" /></a>
 # Usage
-
+<img href="https://img.shields.io/crates/l/rustc-serialize.svg?maxAge=2592000"></img>
 
 
 
