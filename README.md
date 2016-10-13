@@ -1,5 +1,5 @@
 # J-kit
-<p> Lightweight and Powerful CSS Framework intergrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript</b></br>
+<p> Lightweight and Powerful CSS Framework intergrating, <b>PHP</b>, <b>Jquery</b> And <b>Javascript.</b></br>
 Uses custom Animations and Shadows, as-well as a Custom Responsive Grid.
 </p>
 
