@@ -10,7 +10,9 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 # Usage
 Import Jkit StyleSheet:
 <code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code> Place inside <code> `<head> </head>` Tags </code>
-
+</br>
+CDN:
+<code> `cdn` </code>
 
 
 
