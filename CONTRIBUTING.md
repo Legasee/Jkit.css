@@ -1,3 +1,4 @@
-> Jake
+# Contributors List
+> Jake (Developer and Project Manager)
 </br>
-> Jordan
+> Jordan (Developer)
