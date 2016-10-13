@@ -6,9 +6,8 @@ Uses custom Animations and Shadows, as-well as a Custom Responsive Grid. </br>
 </p>
 
 # Development
-<p> Issue's Counter: </p>
+<p> Statistic's And Statuses of Development </p>
 <a href="https://codeclimate.com/github/Jake7500/Jakekit.css"><img src="https://codeclimate.com/github/Jake7500/Jakekit.css/badges/issue_count.svg" /></a>
-<p> Development Status </p>
 [![devstatus](https://img.shields.io/badge/Development Status-Unreleased-darkred.svg?style=flat-square)]()
 # Usage
 
