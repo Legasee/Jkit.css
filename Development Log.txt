@@ -28,7 +28,7 @@
 
 [11/10/2016] Jordan:
 
-> Changed the font to "Rajdhani" as an experimental touch
+> Changed the font to "Jura" as an experimental touch
 > Added 4 new buttons for basic UI navigation as requested by Jake
 		- Placed the new animations for the buttons on each
 
@@ -45,3 +45,7 @@
 > Added hover animations on the top and bottom navbars
 > Added the submenu when you hover over "About" - the submenu position isn't correct but I'll fix that when I come back to it tomorrow.
 
+[13/10/10/2016] Jordan:
+
+> Made the dropdown animatin on about smoother (Very minor change)
+		- Aligned the dropdown menu (Finally!) 
