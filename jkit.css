@@ -281,13 +281,6 @@ body {
     
 }
 
-.col-3 {
-    
-    background-color: #ED1C24;
-    color: white;
-    padding: 20px;
-    
-}
 .button {
     
     -webkit-transition-duration: 0.4s;
@@ -820,4 +813,50 @@ li a {
     
     -webkit-transition: height 1s;
     
+}
+
+.positive {background-color: #00B16A; /* Green */
+	color: white;
+ }
+.positive:hover, .positive:focus, .positive:active {
+    
+    background-color: #2ECC71;
+    color: white;
+    
+}
+
+.night {background-color: #95A5A6;}
+.night:hover, .positive:focus, .positive:active {
+    
+    background-color: #ABB7B7;
+    color: white;
+    
+}
+
+.sunset {background-color: #EF4836;}
+.sunset:hover, .positive:focus, .positive:active {
+    
+    background-color: #EC644B;
+    color: white;
+    
+}
+
+.sky {background-color: #3498DB;}
+.sky:hover, .positive:focus, .positive:active {
+    
+    background-color: #59ABE3;
+    color: white;
+    
+}
+
+.amber {background-color: #E67E22;}
+.amber:hover, .positive:focus, .positive:active {
+    
+    background-color: #EB9532;
+    color: white;
+    
+}
+
+.jkit-panel-poitive {
+    background-color: #2ECC71;
 }
