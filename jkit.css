@@ -747,7 +747,7 @@ li a {
 /* Footer Whitespace */
 #whitespace_footer {
     
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     
 }
 /*   Fixed Navbar    */
@@ -862,10 +862,18 @@ li a {
     cursor: not-allowed;
 }
 
-.jkit-panel-poitive {
+.jkit-panel-positive {
     background-color: #2ECC71;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 .jkit-panel-sky {
-    background: #59ABE3; }
+    background: #59ABE3;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
