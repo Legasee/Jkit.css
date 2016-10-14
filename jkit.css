@@ -857,6 +857,11 @@ li a {
     
 }
 
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .jkit-panel-poitive {
     background-color: #2ECC71;
 }
