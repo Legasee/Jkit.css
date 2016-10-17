@@ -877,3 +877,78 @@ li a {
     padding-bottom: 50px;
     padding-left: 80px;
 }
+
+.fullwidth {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colourexample {
+padding-top: 50px;
+padding-right: 15px;
+padding-bottom: 50px;
+padding-left: 15px;
+}
+
+/* Custom Colour Kit */
+
+.royal {
+background-color: rgba(40, 77, 119, 0.9);
+}
+.crimson {
+background-color: rgba(146, 19, 54, 0.9);
+}
+.forest {
+background-color: rgba(40, 88, 54, 0.9);
+}
+.sea {
+background-color: rgba(34, 117, 190, 0.9);
+}
