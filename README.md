@@ -11,7 +11,7 @@ Import Jkit StyleSheet:
 <code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code>
 </br>
 CDN:
-<code> `cdn.jkitcss.com/master/master/0.1.1/css/jkit.css` </code>
+<code> `https://cdn.gratiscdn.dk/cdn/jake7500/jakekitcss` </code>
 </br>
 
 
@@ -21,4 +21,3 @@ All Documentation can be found at:
 <a href="https://jkitcss.com">Here</a> -
 Along with more detailed information on the Project.
 
-https://cdn.gratiscdn.dk/cdn/jake7500/
