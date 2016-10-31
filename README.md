@@ -11,13 +11,27 @@ Import Jkit StyleSheet:
 <code> `<link rel="stylesheet" type="text/css" href="jkit.css">` </code>
 </br>
 CDN:
-<code> `https://cdn.gratiscdn.dk/cdn/jake7500/jakekitcss` </code>
+<code> `<link href="https://cdn.gratiscdn.dk/cdn/Jake7500/jakekitcss/jkit.css" rel="stylesheet">` </code>
 </br>
 
 
 
 # Documentation
-All Documentation can be found at: 
-<a href="https://jkitcss.com">Here</a> -
-Along with more detailed information on the Project.
-
+### Getting Started:
+<DOCTYPE html>
+<html>
+	<head>
+		<!-- Responsive Viewport Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Page Title -->
+		<title> Jakekit.css CDN </title>
+		<!-- Jakekitcss CDN Stylesheet 
+		Font awesome CDN Stylesheet -->
+		<link href="https://cdn.gratiscdn.dk/cdn/Jake7500/jakekitcss/jkit.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Page Content
+		Goes Here -->
+	</body>
+</html>
