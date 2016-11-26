@@ -18,7 +18,6 @@ CDN:
 
 # Documentation
 ### Getting Started:
-<DOCTYPE html>
 <html>
 	<head>
 		<!-- Responsive Viewport Meta -->
