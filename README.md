@@ -19,12 +19,11 @@ CDN:
 # Documentation
 ### Getting Started:
 	<head>
-		<!-- Responsive Viewport Meta -->
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Page Title -->
+
 		<title> Jkit.css CDN </title>
-		<!-- Jakekitcss CDN Stylesheet 
-		Font awesome CDN Stylesheet -->
+
 		<link href="https://cdn.gratiscdn.dk/cdn/Jake7500/jakekitcss/jkit.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
