@@ -22,7 +22,7 @@ CDN:
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title> Jkit.css CDN </title>
+		<title> Getting Started </title>
 
 		<link href="https://cdn.gratiscdn.dk/cdn/Jake7500/jakekitcss/jkit.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
